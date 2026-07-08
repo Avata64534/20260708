@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>電池知識介紹</title>
+    <style>
+        body {
+            font-family: Arial, "Microsoft JhengHei", sans-serif;
+            background: #f4f4f4;
+            margin: 40px;
+        }
+        .container {
+            max-width: 700px;
+            background: white;nd
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,.1);
+        }
+        h1 {
+            color: #2c7a3f;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background: #2c7a3f;
+            color: white;
+        }
+        .note {
+            background: #fff8dc;
+            padding: 10px;
+            margin-top: 20px;
+            border-left: 5px solid orange;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>電池知識</h1>
+
+    <p><strong>電壓（Voltage, V）</strong> 是電池提供的電位差，例如 7.4V 表示電池的標稱電壓為 7.4 伏特。</p>
+
+    <table>
+        <tr>
+            <th>項目</th>
+            <th>說明</th>
+        </tr>
+        <tr>
+            <td>電壓 (V)</td>
+            <td>伏特，表示電位差</td>
+        </tr>
+        <tr>
+            <td>容量 (Ah)</td>
+            <td>安培小時，表示可供電多久</td>
+        </tr>
+        <tr>
+            <td>電量 (Wh)</td>
+            <td>Wh = V × Ah</td>
+        </tr>
+    </table>
+
+    <h2>7.4V 電池</h2>
+    <ul>
+        <li>通常由兩顆 3.7V 鋰電池串聯（2S）組成。</li>
+        <li>充滿電約為 8.4V。</li>
+        <li>放電截止通常約為 6.0～6.4V（依電池規格而定）。</li>
+    </ul>
+
+    <div class="note">
+        <strong>範例：</strong><br>
+        如果電池是 7.4V、2000mAh（2Ah），<br>
+        電量 = 7.4 × 2 = <strong>14.8Wh</strong>。
+    </div>
+
+</div>
+
+</body>
+</html>
